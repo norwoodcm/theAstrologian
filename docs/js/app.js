@@ -27,9 +27,9 @@ const sun = `The Sun represents the Self, one's way of being in the world. It ca
 const moon = `The Moon is associated with the mother and with feminine energy in general. The Moon is both our inner child and our inner mother. It is responsive, receptive, and reflective. The Moon is our spontaneous and instinctual reactions. \n
 Just as the Moon circles the Sun, in a symbolically protective manner, and reflects the Sun\’s light, the Moon in our chart shows how we protect ourselves, as well as make ourselves feel secure, comfortable, and safe.`
 
-const Scorpio = new Horoscope("Scorpio", "Pluto", 9, pluto, "../imgs/pluto.png");
+const Scorpio = new Horoscope("Scorpio", "Pluto", 9, pluto, "./imgs/pluto.png");
 const Leo = new Horoscope ("Leo", "Sun", 10, sun, "./imgs/sun.png");
-const Cancer = new Horoscope ("Cancer", "Moon", 11, moon, "../imgs/moon.png");
+const Cancer = new Horoscope ("Cancer", "Moon", 11, moon, "./imgs/moon.png");
 const Gemini = new Horoscope ("Gemini", "Mercury", 7)
 const Virgo = new Horoscope ("Virgo", "Mercury", 7)
 const Taurus = new Horoscope ("Taurus", "Venus", 4)
@@ -113,121 +113,121 @@ function zodiacSign(day, month) {
     if (lowercaseMonth == "january") {
         if (day < 20) {
         sign = Capricorn;
-        bannerImage.src = "../imgs/capricorn.png"
+        bannerImage.src = "./imgs/capricorn.png"
         bannerImage.style.height = '300px';
         } else if (day >= 20) {
             sign = Aquarius;
-            bannerImage.src = "../imgs/aquarius.png"
+            bannerImage.src = "./imgs/aquarius.png"
             bannerImage.style.height = '300px';
             }
     } else if (lowercaseMonth == "february") {
         if (day < 19) {
         sign = Aquarius;
-        bannerImage.src = "../imgs/aquarius.png"
+        bannerImage.src = "./imgs/aquarius.png"
         bannerImage.style.height = '300px';
         } else if (day >=19) {
             sign = Pisces;
-            bannerImage.src = "../imgs/pisces.png"
+            bannerImage.src = "./imgs/pisces.png"
             bannerImage.style.height = '300px';
             }
     } else if (lowercaseMonth == "march") {
         if (day < 21) {
         sign = Pisces;
-        bannerImage.src = "../imgs/pisces.png"
+        bannerImage.src = "./imgs/pisces.png"
         bannerImage.style.height = '300px';
         } else if (day >= 21) {
             sign = Aries;
-            bannerImage.src = "../imgs/aries.png"
+            bannerImage.src = "./imgs/aries.png"
             bannerImage.style.height = '300px';
             }
     } else if (lowercaseMonth == "april") {
         if (day < 20) {
         sign = Aries;
-        bannerImage.src = "../imgs/aries.png"
+        bannerImage.src = "./imgs/aries.png"
         bannerImage.style.height = '300px';
         } else if (day >= 20) {
             sign = Taurus;
-            bannerImage.src = "../imgs/taurus.png"
+            bannerImage.src = "./imgs/taurus.png"
             bannerImage.style.height = '300px';
             }
     } else if (lowercaseMonth == "may") {
         if (day < 22) {
         sign = Taurus;
-        bannerImage.src = "../imgs/taurus.png"
+        bannerImage.src = "./imgs/taurus.png"
         bannerImage.style.height = '300px';
         } else if (day >= 22) {
             sign = Gemini;
-            bannerImage.src = "../imgs/gemini.png";
+            bannerImage.src = "./imgs/gemini.png";
             bannerImage.style.height = '300px';
             }
     } else if (lowercaseMonth == "june") {
         if (day < 21) {
         sign = Gemini;
-        bannerImage.src = "../imgs/gemini.png";
+        bannerImage.src = "./imgs/gemini.png";
         bannerImage.style.height = '300px';
         } else if (day >= 21) {
             sign = Cancer;
-            bannerImage.src = "../imgs/cancer.png";
+            bannerImage.src = "./imgs/cancer.png";
             bannerImage.style.height = '300px';
             }
     } else if (lowercaseMonth == "july") {
         if (day < 23) {
         sign = Cancer;
-        bannerImage.src = "../imgs/cancer.png";
+        bannerImage.src = "./imgs/cancer.png";
         bannerImage.style.height = '300px';
         } else if (day >= 23) {
             sign = Leo;
-            bannerImage.src = "../imgs/leo.png";
+            bannerImage.src = "./imgs/leo.png";
             bannerImage.style.height = '300px';
         }
     } else if (lowercaseMonth == "august") {
         if (day < 23) {
         sign = Leo;
-        bannerImage.src = "../imgs/leo.png";
+        bannerImage.src = "./imgs/leo.png";
         bannerImage.style.height = '300px';
         } else if (day >= 23) {
             sign = Virgo;
-            bannerImage.src = "../imgs/virgo.png";
+            bannerImage.src = "./imgs/virgo.png";
             bannerImage.style.height = '300px';
         }
     } else if (lowercaseMonth == "september") {
         if (day < 23) {
         sign = Virgo;
-        bannerImage.src = "../imgs/virgo.png";
+        bannerImage.src = "./imgs/virgo.png";
         bannerImage.style.height = '300px';
         } else if (day >=23) {
             sign = Libra;
-            bannerImage.src = "../imgs/libra.png";
+            bannerImage.src = "./imgs/libra.png";
             bannerImage.style.height = '300px';
         }
     } else if (lowercaseMonth == "october") {
         if (day < 23) {
         sign = Libra;
-        bannerImage.src = "../imgs/libra.png";
+        bannerImage.src = "./imgs/libra.png";
         bannerImage.style.height = '300px';
         } else if (day >=23) {
             sign = Scorpio;
-            bannerImage.src = "../imgs/scorpio.png";
+            bannerImage.src = "./imgs/scorpio.png";
             bannerImage.style.height = '300px';
         }
     } else if (lowercaseMonth == "november") {
         if (day < 23) {
         sign = Scorpio;
-        bannerImage.src = "../imgs/scorpio.png";
+        bannerImage.src = "./imgs/scorpio.png";
         bannerImage.style.height = '300px';
         } else if (day >= 23) {
             sign = Sagittarius;
-            bannerImage.src = "../imgs/sagittarius.png";
+            bannerImage.src = "./imgs/sagittarius.png";
             bannerImage.style.height = '300px';
         }
     } else if (lowercaseMonth == "december") {
         if (day < 22) {
         sign = Sagittarius;
-        bannerImage.src = "../imgs/sagittarius.png";
+        bannerImage.src = "./imgs/sagittarius.png";
         bannerImage.style.height = '300px';
         } else if (day >=22) {
             sign = Capricorn;
-            bannerImage.src = "../imgs/capricorn.png"
+            bannerImage.src = "./imgs/capricorn.png"
             bannerImage.style.height = '300px';
         }
     }
